@@ -31,12 +31,12 @@ cd terraform-gcp-nomad-1dc-1region
 | gcp_credentials_file_path | Locate the GCP credentials .json file. | string  | - | yes
 | gcp_project_id | GCP Project ID. | string  | - | yes
 | gcp_region | Requester AWS secret key | string  | us-east4 | no
-| gcp-vpc-network | VPC network name | string  | no | yes
-| gcp-subnet1-name | VPC subnetwork name | string  | no | yes
-| cloudflare_email | VPC subnetwork name | string  | no | yes
-| cloudflare_token | VPC subnetwork name | string  | no | yes
-| cloudflare_zone | VPC subnetwork name | string  | no | yes
-| subdomain_name | VPC subnetwork name | string  | no | yes
+| gcp-vpc-network | VPC network name | string  | - | yes
+| gcp-subnet1-name | VPC subnetwork name | string  | - | yes
+| cloudflare_email | VPC subnetwork name | string  | - | yes
+| cloudflare_token | VPC subnetwork name | string  | - | yes
+| cloudflare_zone | VPC subnetwork name | string  | - | yes
+| subdomain_name | VPC subnetwork name | string  | - | yes
 | servers_count | number of nomad servers | number  | 3 | no
 | clients_count | number of nomad  clients | number  | 1 | no
 | instance_role | define nomad instance role | string  | server | no
