@@ -2,7 +2,7 @@
 
 ## High Level Overview
 
-<img src="diagrams/nomad-tls-nginx-reverse-proxy-1dc-1region.png" />
+<img src="diagrams/nomad-gcp-1dc-1region.png" />
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ cd terraform-gcp-nomad-1dc-1region
 | ----- | ----------- | ---- |  ------- | --------
 | gcp_credentials_file_path | Locate the GCP credentials .json file. | string  | - | yes
 | gcp_project_id | GCP Project ID. | string  | - | yes
-| gcp_region | Requester AWS secret key | string  | yes | no
+| gcp_region | Requester AWS secret key | string  | us-east4 | no
 | gcp-vpc-network | VPC network name | string  | no | yes
 | gcp-subnet1-name | VPC subnetwork name | string  | no | yes
 | cloudflare_email | VPC subnetwork name | string  | no | yes
