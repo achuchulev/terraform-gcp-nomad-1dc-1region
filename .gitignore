@@ -7,3 +7,14 @@
 
 # .tfvars files
 *.tfvars
+
+# cert files
+*.pem
+*.csr
+
+# test vars
+*.dc*
+.DS_Store
+
+# kitchen
+.kitchen
